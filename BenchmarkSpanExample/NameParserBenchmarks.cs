@@ -1,7 +1,7 @@
 ﻿using BenchmarkDotNet.Attributes;
 using BenchmarkDotNet.Order;
 
-namespace BenchmarkAndSpanExample
+namespace BenchmarkSpanExample
 {
     [MemoryDiagnoser]
     public class NameParserBenchmarks

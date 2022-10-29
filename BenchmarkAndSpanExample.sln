@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BenchmarkAndSpanExample", "BenchmarkAndSpanExample\BenchmarkAndSpanExample.csproj", "{F38A49A7-A218-4CFC-BCBB-84E5A83B3764}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BenchmarkSpanExample", "BenchmarkSpanExample\BenchmarkSpanExample.csproj", "{19442F71-4D3F-4471-88D6-173B6C2656EA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F38A49A7-A218-4CFC-BCBB-84E5A83B3764}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F38A49A7-A218-4CFC-BCBB-84E5A83B3764}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F38A49A7-A218-4CFC-BCBB-84E5A83B3764}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F38A49A7-A218-4CFC-BCBB-84E5A83B3764}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19442F71-4D3F-4471-88D6-173B6C2656EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19442F71-4D3F-4471-88D6-173B6C2656EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19442F71-4D3F-4471-88D6-173B6C2656EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19442F71-4D3F-4471-88D6-173B6C2656EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace BenchmarkAndSpanExample
+namespace BenchmarkSpanExample
 {
     public class NameParser
     {
