@@ -3,6 +3,8 @@ using BenchmarkDotNet.Order;
 
 namespace BenchmarkSpanExample
 {
+    [RankColumn]
+    [Orderer(SummaryOrderPolicy.FastestToSlowest)]
     [MemoryDiagnoser]
     public class NameParserBenchmarks
     {
@@ -13,6 +15,18 @@ namespace BenchmarkSpanExample
         public void GetLastName()
         {
             Parser.GetLastName(FullName);
+        }
+
+        [Benchmark]
+        public void GetLastNameUsingSubstring()
+        {
+            Parser.GetLastNameUsingSubstring(FullName);
+        }
+        
+        [Benchmark]
+        public void GetLastNameWithSpan()
+        {
+            Parser.GetLastNameWithSpan(FullName);
         }
     }
 }
